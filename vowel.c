@@ -32,6 +32,26 @@ int main()
         printf("u : given word are vowel\n");
         break;
 
+       case 'A':
+        printf("A : given word are vowel\n");
+        break;
+    case 'E':
+        printf("e : given word are vowel \n");
+        break;
+    case 'I':
+        printf("i : given word are vowel\n");
+
+        break;
+
+    case 'O':
+        printf("o : given word are vowel\n");
+
+        break;
+
+    case 'U':
+        printf("U : given word are vowel\n");
+        break;
+
     default:
         printf("given word are not vowel");
 
