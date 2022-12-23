@@ -18,13 +18,21 @@ scanf("%f",&c);
     
     D = b*b - (4*a*c);
 
-   if( D>0 ){
-    R1= (-b/ + sqrt(D))/(2*a);
-      R2= (-b/ - sqrt(D))/(2*a);
+    printf(" The value of discriminant: %.3f\n",D);
+ 
+ // D > 0 --> Roots are real and distinct
+   if( D > 0 ){
+    R1= (-b + sqrt(D))/(2*a);
+
+      R2= (-b - sqrt(D))/(2*a);
 
       printf("R1 = %.3f\n" , R1);
       printf("R2 = %.3f\n" , R2);
+
+      printf("both root are real and different");
    }
+
+    // D == 0 --> Roots are real and same
    else if (D==0){
 
     R1 =-b/(2*a);
@@ -32,9 +40,11 @@ scanf("%f",&c);
    
     printf("R1 = %.2f" , R1);
      printf("R2 = %.2f" , R2);
-
+     
+     printf("both root are real and equal");
    }
 
+    // D < 0 --> Roots are imaginary and conjugate
    else {
 
     IR1  = -b/(2*a);
@@ -42,7 +52,8 @@ scanf("%f",&c);
 
     printf("R1 = %.2f + i%.2f\n", IR1);
     printf("R2 = %.2f - i%.2f\n", IR2);
-
+     
+     printf("both root are imaginary ande conjugate");
    }
  
      return 0;
