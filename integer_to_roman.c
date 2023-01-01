@@ -9,7 +9,7 @@
 // for example how code work for 2023
 
 // num == number
-// e.g num = num - 10 --->  num -= 10
+//  num = num - 10 --->  num -= 10
 
 #include <stdio.h> 
 
