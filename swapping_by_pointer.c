@@ -12,7 +12,7 @@ int main (){
 
   printf("before swapping the value of\n x = %d\n  y = %d\n" , x , y);
 
-  swap(&x,&y); // swapppin the value using call by refrence
+  swap(&x,&y); // swappping the value using call by refrence
 
   printf("After swapping the value of\n x =  %d\n  y = %d" , x,y);
 
